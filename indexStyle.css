@@ -1,0 +1,75 @@
+body{
+    background-image: url("images/virat\ kohli.jpg");
+    height:100vh;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+.links ul li a{
+    color:white;
+    padding: 9px;
+    text-decoration: none;
+    font-size: x-large;
+}
+.links ul li a:hover{
+    border-bottom: 3px solid #fff;
+    background:linear-gradient(rgba(166, 158, 255, 0.6), rgba(87,77,210,0.6));
+}
+.links ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links ul li{
+    list-style: none;
+}
+.content{
+    color:rgb(255, 255, 255);
+    font-size: large;
+    text-align: center;
+    font-family: cooper;
+    transition: all .5s ease-in-out;
+}
+.content:hover{
+    transform:scale(1.15);
+    background:linear-gradient(rgba(87,77,210,0.6), rgba(87,77,210,0.6));
+}
+.img_bottom{
+    color: blue;
+    margin-top:50vh;
+    font-size: x-large;
+    font-family: cooper;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 3px 3px blueviolet;
+}
+.biography h1{
+    background-image: url("images/blue.jpg");
+    width: 100%;
+    background-size: cover;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px grey;
+}
+.biography{
+    background-image: url("images/blue.jpg");
+    width: 98%;
+    padding:10px;
+    background-size: cover;
+    font-weight: 900;
+    color:black;
+    font-size: large;
+    text-align: justify;
+}
+.achievements{
+    width: 100%;
+    font-size: x-large;
+    font-family: cooper;
+    font-weight: 900;
+    background:linear-gradient(rgba(87,77,210,0.6), rgba(87,77,210,0.6));
+    
+}
+.achievements h1{
+    background-image: url("images/blue.jpg");
+}

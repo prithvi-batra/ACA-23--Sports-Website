@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="IPL-results.css">
+        <meta charset="utf-8">
+        <title>IPL RESULTS</title>
+    </head>
+    <body>
+        <nav class="links">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="timeline.html">TIME LINE</a></li>
+            <li><a href="IPL-results.html">IPL RESULTS</a></li>
+        </ul>    
+        </nav>
+        <form id ="datavalue">
+            <div class="form_div">
+                <label for="form_box">IPL RESULTS</label>
+                <select for="form_box" id="year">
+                    <option value = "Year" selected disabled hidden>CHOOSE A YEAR</option>
+                    <option value="2008">2008</option>
+                    <option value="2009">2009</option>
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                </select> 
+            </div>
+            <div class="Submit">
+                <input type="submit" id= "submit">
+            </div>
+        </form>
+        <p class="all_span">
+            <h3 class= "span"><span id = "result1"></span><br></h3>
+            <h3 class= "span"><span id = "result2"></span><br></h3>
+            <h3 class= "span"><span id = "result3"></span><br></h3>
+            <h3 class= "span"><span id = "result4"></span><br></h3>
+            <h3 class= "span"><span id = "result5"></span><br></h3>
+            <h3 class= "span"><span id = "result6"></span><br></h3>
+            <h3 class= "span"><span id = "result7"></span><br></h3>
+            <h3 class= "span"><span id = "result8"></span><br></h3>
+        </p>
+        <script src = "https://www.gstatic.com/firebasejs/6.3.4/firebase.js"></script>
+        <script src = "IPL-results.js"></script>
+    </body>
+</html>
